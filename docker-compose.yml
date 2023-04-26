@@ -11,7 +11,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: $DB_PASSWORD
       DB_NAME: $DB_NAME
       DB_USER: $DB_USER
-      DB_PASSWORD: $DB_NAME
+      DB_PASSWORD: $DB_PASS
     ports:
       - 27017:27017
     volumes:
